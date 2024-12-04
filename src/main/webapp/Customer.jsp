@@ -8,9 +8,9 @@
 <body>
 <%
     List<User> listUser = new ArrayList<>();
-    listUser.add(new User(1, "He", "hehe@gmail.com", "Ha noi", "https://sieupet.com/sites/default/files/anh_meo_hai_huoc.jpg"));
-    listUser.add(new User(2, "He", "hehe@gmail.com", "Ha noi", "https://sieupet.com/sites/default/files/anh_meo_hai_huoc.jpg"));
-    listUser.add(new User(3, "He", "hehe@gmail.com", "Ha noi", "https://sieupet.com/sites/default/files/anh_meo_hai_huoc.jpg"));
+    listUser.add(new User(1, "He", "hehe@gmail.com", "Ha noi", "https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg"));
+    listUser.add(new User(2, "He", "hehe@gmail.com", "Ha noi", "https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg"));
+    listUser.add(new User(3, "He", "hehe@gmail.com", "Ha noi", "https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg"));
     listUser.add(new User(4, "He", "hêh@gmail.com", "Hanoi", "https://st.quantrimang.com/photos/image/2020/06/19/Hinh-Nen-Meo-Ngao-38.jpg"));
     request.setAttribute("listUser", listUser);
 %>

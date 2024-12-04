@@ -5,32 +5,32 @@
 </head>
 <body>
 <h1>Simple Calculator</h1>
-<form method="post" action="Calculator">
+<form method="get" action="Calculate">
     <fieldset>
         <legend>Calculator</legend>
         <table>
             <tr>
-                <td>First operand: </td>
-                <td><input name="first-operand" type="text"/></td>
+                <td>Số thứ 1: </td>
+                <td><input name="soThuNhat" type="number"/></td>
             </tr>
             <tr>
-                <td>Operator: </td>
+                <td> phép tính: </td>
                 <td>
-                    <select name="operator">
-                        <option value="+">Addition</option>
-                        <option value="-">Subtraction</option>
-                        <option value="*">Multiplication</option>
-                        <option value="/">Division</option>
+                    <select name="toanTu">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td>Second operand: </td>
-                <td><input name="second-operand" type="text"/></td>
+                <td>Số thứ 2: </td>
+                <td><input name="soThuHai" type="number"/></td>
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" value="Calculate"/></td>
+                <td><input type="submit" value="Tính"/></td>
             </tr>
         </table>
     </fieldset>
